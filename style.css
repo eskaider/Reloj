@@ -256,3 +256,38 @@ section{
     border-radius: 40px;
     box-shadow: var(--bx02);
 }
+
+.timeBx #hora::after,
+.timeBx #minutos::after{
+    content: '';
+    position: absolute;
+}
+
+.timeBx #hora{
+    color: var(--circle_h);
+    text-shadow: 0 0 10px var(--circle_h),
+    0 0 20px var(--circle_h);
+}
+
+.timeBx #minutos{
+    color: var(--circle_m);
+    text-shadow: 0 0 10px var(--circle_m),
+    0 0 20px var(--circle_m);
+}
+
+.timeBx #segs{
+    color: var(--circle_s);
+    text-shadow: 0 0 10px var(--circle_s),
+    0 0 20px var(--circle_s);
+}
+
+.ap{
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--c);
+    text-shadow: 0 0 10px var(--c),
+    0 0 20px var(--c);
+}
